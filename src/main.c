@@ -73,7 +73,7 @@ int main(void)
 
 
     while (1) {
-        if (milis() - time > 10E3) {
+        if (milis() - time > 1E3) {
             time = milis();
 
             // čas
