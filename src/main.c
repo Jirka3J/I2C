@@ -67,10 +67,10 @@ int main(void)
     zapsano[4] = 0x03;          // den
     zapsano[5] = 0x06;          // měsíc
     zapsano[6] = 0x24;          // rok
-
+/*
     while(!PUSH(BTN));
     printf("Zápis do RTC StatusCode: %X\n",  swi2c_write_buf(0x68 <<1 , 0x00, zapsano, 7));
-
+*/
 
     while (1) {
         if (milis() - time > 1E3) {
